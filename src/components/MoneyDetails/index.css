@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  flex-wrap: wrap;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #ecfccb;
+  border-color: #84cc16;
+  margin: 12px;
+  width: 25vw;
+}
+.image {
+  width: 70px;
+  height: 70px;
+  margin: 12px;
+}
+.title {
+  color: #475569;
+  font-size: 15px;
+}
+.money {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+}
+.income-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #cffafe;
+  border-color: #06b6d4;
+  margin: 12px;
+  width: 25vw;
+}
+.expenses-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+  margin: 12px;
+  width: 25vw;
+}

@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.welcome-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  height: 100px;
+  width: 90vw;
+  margin: 6px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #475569;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.money-manager {
+  color: #0b69ff;
+  font-weight: 500;
+}
+.welcome-para {
+  color: #475569;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.add-transaction-con {
+  border-style: solid;
+}
+.history-con {
+  border-style: solid;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+}
+.history-item {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  margin: 6px;
+}
+.item-heading {
+  margin: 4px;
+}

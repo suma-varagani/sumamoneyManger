@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.TransactionItem {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+}
+.ListItem {
+  list-style-type: none;
+}
